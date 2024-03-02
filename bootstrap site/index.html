@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap ilk site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Navbar başlangıç-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#carouselExampleIndicators">Anasayfa<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hakkimizddaaaa">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ekibimiz">Ekibimiz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#galeri">Galeri</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#iletisim">İletişim</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Navbar bitiş-->
+<!------------------------------------------------------------->
+
+
+
+    <!--Slider başlangıç-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/sl1.jpg" class="d-block w-100 resimslider" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/sl2.jpg" class="d-block w-100 resimslider" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/sl3.jpg" class="d-block w-100 resimslider " alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+    <!--Slider bitiş-->
+
+<!------------------------------------------------------------->
+
+    <!--Hakkımızda başlangıç-->
+    <section class="p-5 text-center hakkimizda" id="hakkimizddaaaa">
+        <div class="container">
+            <h2 class="mb-5 font-weight-bold">Hakkımızda</h2>
+            <hr class="ayrac"><i class="fa-solid fa-leaf ibeyaz"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ex delectus officia aspernatur
+                adipisci fugit inventore tenetur ipsa ut fugiat deleniti ducimus nostrum alias culpa maiores quibusdam
+                nemo et quo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ratione nam amet a
+                dolorem aspernatur rem impedit aperiam modi veniam nihil vitae commodi illo praesentium, tempore
+                dignissimos placeat minus nostrum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptate ullam quasi magni asperiores
+                consequatur cupiditate culpa. Ex quia impedit necessitatibus possimus praesentium id placeat,
+                recusandae, voluptas harum dolores delectus.</p>
+        </div>
+    </section>
+
+    <!--Hakkımızda bitiş-->
+<!------------------------------------------------------------->
+
+    <!--Ekibimiz başlangıç-->
+    <section class="p-5 text-center ekibimiz" id="ekibimiz">
+        <div class="container">
+            <h2 class="mb-5 font-weight-bold">Ekibimiz</h2>
+            <hr class="ayrac"><i class="fa-solid fa-leaf ibeyaz2"></i>
+            <div class="card-deck">
+                <div class="row">
+                    <div class="card shadow ekipCard">
+                        <img src="img/ekip1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card shadow ekipCard">
+                        <img src="img/ekip2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                    </div>
+                    <div class="card shadow ekipCard">
+                        <img src="img/ekip4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div><br><br><br><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card shadow ekipCard">
+                        <img src="img/ekip4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                    </div>
+                    <div class="card shadow ekipCard">
+                        <img src="img/ekip5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                    </div>
+                    <div class="card shadow ekipCard    ">
+                        <img src="img/ekip6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Ekibimiz bitiş-->
+<!------------------------------------------------------------->
+
+
+    <!--Galeri başlangıç-->
+    <section>
+        <div class="container text-center galeri" id="galeri">
+            <h2 class="mb-5 font-weight-bold">Galeri</h2>
+            <hr class="ayrac"><i class="fa-solid fa-leaf ibeyaz2"></i>
+            <div class="row">
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/computer-2982270_1280.jpg">
+                            <img src="img/computer-2982270_1280.jpg" class="figure-img img-fluid rounded shadow"
+                                alt="...">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/man-593333_1280.jpg">
+                            <img src="img/man-593333_1280.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/office-594132_1280.jpg">
+                            <img src="img/office-594132_1280.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/office-620817_1280.jpg">
+                            <img src="img/office-620817_1280.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                        </a>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/computer-1867758_1280.jpg">
+                            <img src="img/computer-1867758_1280.jpg" class="figure-img img-fluid rounded shadow"
+                                alt="...">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/woman-792162_1280.jpg">
+                            <img src="img/woman-792162_1280.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/wordpress-923188_1280.jpg">
+                            <img src="img/wordpress-923188_1280.jpg" class="figure-img img-fluid rounded shadow"
+                                alt="...">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <a href="img/working-791849_1280.jpg">
+                            <img src="img/working-791849_1280.jpg" class="figure-img img-fluid rounded shadow"
+                                alt="...">
+                        </a>
+                    </figure>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Galeri bitiş-->
+    <!------------------------------------------------------------->
+
+    <!--İletişim başlangıç-->
+    <section>
+        <div class="container text-center iletisim" id="iletisim">
+            <h2 class="mb-5 font-weight-bold">İletişim</h2>
+            <hr class="ayrac"><i class="fa-solid fa-leaf ibeyaz2"></i>
+            <form action="" class="com-md-10 text-left m-auto"></form>
+                <div class="form-group row">
+                    <label for="" class="col-md-4 align-self-center">Ad:</label>
+                    <input type="text" class="form-control col-md-8">
+                </div>
+                <div class="form-group row">
+                    <label for="" class="col-md-4 align-self-center"> Soyad:</label>
+                    <input type="text" class="form-control col-md-8">
+                </div>
+                <div class="form-group row">
+                    <label for="" class="col-md-4 align-self-center">Mail:</label>
+                    <input type="text" class="form-control col-md-8">
+                </div>
+                <div class="form-group row">
+                    <label for="" class="col-md-4 align-self-center">mesajınız:</label>
+                    <textarea name="" id="" cols="30" rows="9" class="form-control col-md-8"></textarea>
+                </div>
+                <div class="form-group row">
+                    <button type="submit" class="col-md-2 btn btn-primary buton">GÖNDER</button>
+                </div>
+        </div>
+    </section>
+
+
+    <!--İletişim bitiş-->
+<!------------------------------------------------------------->
+    <!--Footer başlangıç-->
+    <div class="bg-dark text-light text-center">
+        <p class="align-middle p-5 mb-0">
+            <span>Tüm Hakları Saklıdır &copy; | 2020</span><br>
+            <span>Designed by <b><i class="fa-brands fa-instagram"></i>Yusufaltg8</b></span>
+        </p>
+    </div>
+
+    <!--Footer bitiş-->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
